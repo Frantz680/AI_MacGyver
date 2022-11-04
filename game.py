@@ -67,12 +67,12 @@ class Game:
             map.open_file(choice)
             map.creation_hero()
             map.mapping()
-            map.hazard(NEEDLE)
-            map.hazard(ETHER)
-            map.hazard(SYRINGE)
+            # map.hazard(NEEDLE)
+            # map.hazard(ETHER)
+            # map.hazard(SYRINGE)
 
             loop_game = 1
-
+            
             while loop_game:
                 for event in pygame.event.get():  # Waiting for events
                     if event.type == QUIT:

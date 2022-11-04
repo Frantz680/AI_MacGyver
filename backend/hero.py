@@ -89,11 +89,11 @@ class Hero:
         elif p_map.map_game[self.map_hero_V][self.map_hero_H] == GUARDIAN:
 
             # If he finds all the objects he wins
-            if self.find_e and self.find_n and self.find_s:
+            # if self.find_e and self.find_n and self.find_s:
                 self.win_game = True
                 print("You have won")
 
             # If he doesn't find all the objects he dies
-            elif not self.find_e or not self.find_n or not self.find_s:
-                self.lost_game = True
-                print("You are dead")
+            # elif not self.find_e or not self.find_n or not self.find_s:
+                # self.lost_game = True
+                # print("You are dead")
